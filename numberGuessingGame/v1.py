@@ -1,0 +1,16 @@
+import random
+
+print("Welcome to Guess the number game")
+print("I am guessing a number between 1 and 100")
+
+num=random.randint(1,100)
+
+user_guess=int(input("Guess the number: "))
+
+
+
+if num==user_guess:
+    print("Yoo guessed it right ")
+else:
+    print("try again")
+
